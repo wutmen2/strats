@@ -1,0 +1,274 @@
+local TDS = loadstring(game:HttpGet("https://raw.githubusercontent.com/DuxiiT/auto-strat/refs/heads/main/Library.lua"))()
+
+TDS:Loadout("Hacker", "Gatling Gun", "Pyromancer", "Farm", "Mercenary Base")
+TDS:Mode("Voidcore")
+TDS:GameInfo("Outskirts Commune", {})
+
+TDS:Place("Pyromancer", -11.25567626953125, 501.3038635253906, 27.225370407104492)
+TDS:SetTarget(1, "Random")
+TDS:SetTarget(1, "Farthest")
+
+-- [ Wave 1 ] --
+TDS:VoteSkip(1)
+
+-- [ Wave 2 ] --
+TDS:VoteSkip(2)
+TDS:Upgrade(1)
+
+-- [ Wave 3 ] --
+TDS:VoteSkip(3)
+
+-- [ Wave 4 ] --
+TDS:VoteSkip(4)
+
+-- [ Wave 5 ] --
+TDS:VoteSkip(5)
+
+-- [ Wave 6 ] --
+TDS:VoteSkip(6)
+TDS:Place("Pyromancer", -16.04844093322754, 503.03680419921875, -18.415081024169922)
+TDS:SetTarget(2, "Random")
+
+-- [ Wave 7 ] --
+TDS:SetTarget(2, "Farthest")
+TDS:VoteSkip(7)
+TDS:Upgrade(2)
+
+-- [ Wave 8 ] --
+TDS:VoteSkip(8)
+TDS:Place("Farm", -18.17683982849121, 502.6441345214844, -9.134749412536621)
+
+-- [ Wave 9 ] --
+TDS:VoteSkip(9)
+TDS:Place("Farm", -17.937170028686523, 502.5641784667969, -5.508456230163574)
+TDS:Place("Farm", -17.906814575195312, 502.55511474609375, -1.5929441452026367)
+
+-- [ Wave 10 ] --
+TDS:Upgrade(3)
+TDS:Upgrade(3)
+
+-- [ Wave 11 ] --
+TDS:Upgrade(4)
+TDS:Sell(2)
+TDS:Upgrade(4)
+TDS:Upgrade(5)
+
+-- [ Wave 12 ] --
+TDS:Upgrade(1)
+TDS:SetTarget(1, "Random")
+TDS:SetTarget(1, "First")
+TDS:SetTarget(1, "Last")
+TDS:SetTarget(1, "Strongest")
+
+-- [ Wave 13 ] --
+TDS:Upgrade(5)
+TDS:Place("Farm", -21.465913772583008, 502.5959167480469, -1.1379356384277344)
+TDS:Upgrade(6)
+
+-- [ Wave 14 ] --
+TDS:Upgrade(6)
+TDS:Place("Farm", -24.973834991455078, 502.64031982421875, -0.7867574691772461)
+TDS:Upgrade(7)
+TDS:Place("Farm", -28.319549560546875, 502.690673828125, -2.420011520385742)
+
+-- [ Wave 15 ] --
+TDS:Upgrade(7)
+TDS:Upgrade(8)
+TDS:Upgrade(8)
+TDS:Place("Farm", -19.163909912109375, 502.5494689941406, 1.929626226425171)
+TDS:Upgrade(9)
+
+-- [ Wave 16 ] --
+TDS:Upgrade(5)
+TDS:Upgrade(9)
+
+-- [ Wave 17 ] --
+TDS:SetTarget(1, "Last")
+TDS:SetTarget(1, "First")
+TDS:SetTarget(1, "Last")
+TDS:VoteSkip(17)
+TDS:Place("Pyromancer", 18.682905197143555, 501.2755432128906, 11.625914573669434)
+TDS:Upgrade(10)
+TDS:Upgrade(10)
+
+-- [ Wave 18 ] --
+TDS:Upgrade(1)
+TDS:SetTarget(1, "First")
+
+-- [ Wave 19 ] --
+TDS:Upgrade(6)
+TDS:Upgrade(9)
+TDS:SetTarget(1, "Random")
+TDS:Upgrade(7)
+TDS:Place("Farm", -25.086288452148438, 502.70477294921875, -4.720513820648193)
+
+-- [ Wave 20 ] --
+TDS:Upgrade(11)
+TDS:Upgrade(8)
+TDS:Upgrade(11)
+TDS:Upgrade(11)
+TDS:Place("Farm", -21.618980407714844, 502.6744384765625, -5.671904563903809)
+TDS:Upgrade(12)
+
+-- [ Wave 21 ] --
+TDS:Upgrade(4)
+TDS:Upgrade(3)
+TDS:Upgrade(12)
+TDS:SetTarget(1, "Farthest")
+TDS:Upgrade(12)
+TDS:SetTarget(1, "Closest")
+TDS:SetTarget(1, "Weakest")
+TDS:SetTarget(1, "Strongest")
+TDS:Place("Farm", -24.76800537109375, 502.7618103027344, -8.316533088684082)
+TDS:Upgrade(13)
+TDS:Upgrade(13)
+
+-- [ Wave 22 ] --
+TDS:Upgrade(13)
+
+-- [ Wave 23 ] --
+TDS:Place("Gatling Gun", 4.1120195388793945, 505.0586242675781, 9.244722366333008)
+TDS:Upgrade(14)
+
+-- [ Wave 24 ] --
+TDS:Upgrade(14)
+
+-- [ Wave 26 ] --
+TDS:Upgrade(14)
+TDS:Upgrade(9)
+TDS:Upgrade(5)
+
+-- [ Wave 27 ] --
+TDS:Upgrade(9)
+TDS:Upgrade(5)
+
+-- [ Wave 28 ] --
+TDS:Upgrade(6)
+TDS:Upgrade(6)
+TDS:Upgrade(7)
+
+-- [ Wave 29 ] --
+TDS:Upgrade(7)
+TDS:Upgrade(4)
+TDS:Place("Mercenary Base", 6.719950199127197, 501.6144104003906, 9.446056365966797)
+TDS:Upgrade(15)
+TDS:Upgrade(15)
+
+-- [ Wave 30 ] --
+TDS:Upgrade(4)
+TDS:Upgrade(12)
+TDS:Upgrade(12)
+TDS:Upgrade(11)
+TDS:Upgrade(11)
+TDS:Upgrade(3)
+
+-- [ Wave 31 ] --
+TDS:Upgrade(3)
+TDS:Upgrade(13)
+TDS:Upgrade(13)
+TDS:Upgrade(8)
+
+-- [ Wave 32 ] --
+TDS:Upgrade(8)
+TDS:Upgrade(15)
+TDS:Upgrade(15)
+TDS:SetOption(15, "Unit 1", "Riot Guard")
+TDS:SetOption(15, "Unit 3", "Riot Guard")
+TDS:SetOption(15, "Unit 2", "Riot Guard")
+
+-- [ Wave 33 ] --
+TDS:Upgrade(15)
+
+-- [ Wave 34 ] --
+TDS:Upgrade(14)
+
+-- [ Wave 35 ] --
+
+-- [ Wave 36 ] --
+TDS:Upgrade(15)
+TDS:Place("Mercenary Base", 1.2039823532104492, 505.1708068847656, -34.47454071044922)
+TDS:Upgrade(16)
+TDS:Upgrade(16)
+TDS:Upgrade(16)
+
+-- [ Wave 37 ] --
+TDS:Upgrade(16)
+TDS:SetOption(16, "Unit 1", "Riot Guard")
+TDS:SetOption(16, "Unit 3", "Riot Guard")
+TDS:SetOption(16, "Unit 2", "Riot Guard")
+
+-- [ Wave 38 ] --
+TDS:Upgrade(16)
+TDS:Place("Mercenary Base", 6.595673084259033, 505.3248291015625, -35.00065612792969)
+TDS:Upgrade(17)
+TDS:Upgrade(17)
+TDS:Upgrade(17)
+TDS:Upgrade(17)
+TDS:SetOption(17, "Unit 1", "Riot Guard")
+TDS:SetOption(17, "Unit 2", "Riot Guard")
+TDS:SetOption(17, "Unit 3", "Riot Guard")
+
+-- [ Wave 39 ] --
+TDS:Upgrade(17)
+
+-- [ Wave 40 ] --
+TDS:Sell(10)
+TDS:Upgrade(14)
+TDS:Place("Hacker", 2.0338239669799805, 501.3815612792969, 44.35877990722656)
+TDS:Upgrade(18)
+TDS:Upgrade(18)
+TDS:Place("Hacker", -8.103263854980469, 501.3218994140625, 27.83940315246582)
+TDS:Upgrade(19)
+
+-- [ Wave 41 ] --
+TDS:Upgrade(19)
+
+-- [ Wave 42 ] --
+TDS:Upgrade(14)
+
+-- [ Wave 43 ] --
+TDS:Upgrade(16)
+
+-- [ Wave 44 ] --
+TDS:Upgrade(17)
+TDS:Upgrade(18)
+TDS:Upgrade(18)
+
+-- [ Wave 45 ] --
+TDS:Upgrade(18, 2)
+TDS:Upgrade(19)
+TDS:Upgrade(19)
+TDS:Upgrade(19, 2)
+
+-- [ Wave 46 ] --
+TDS:Upgrade(1)
+TDS:Upgrade(1)
+TDS:Ability(19, "Hologram Tower", {towerPosition = Vector3.new(0.9864499568939209, 504.99951171875, 5.98088264465332), towerToClone = 14}, true)
+
+-- [ Wave 47 ] --
+
+-- [ Wave 48 ] --
+
+-- [ Wave 49 ] --
+
+-- [ Wave 50 ] --
+TDS:Sell(9)
+TDS:Sell(5)
+TDS:Sell(4)
+TDS:Sell(3)
+TDS:Sell(12)
+TDS:Sell(6)
+TDS:Sell(7)
+TDS:Sell(11)
+TDS:Sell(13)
+TDS:Sell(8)
+TDS:Place("Farm", -16.204105377197266, 501.3678283691406, 29.175796508789062)
+TDS:Place("Farm", -8.633880615234375, 501.3431396484375, 32.88872528076172)
+TDS:Place("Farm", -15.337398529052734, 501.3226623535156, 22.46532440185547)
+TDS:Place("Farm", -6.075645446777344, 501.3194580078125, 23.562191009521484)
+TDS:Place("Farm", -14.995466232299805, 501.3690490722656, 43.520782470703125)
+TDS:Place("Farm", -0.430694580078125, 501.34625244140625, 37.4340934753418)
+TDS:Place("Farm", -8.778902053833008, 501.3603515625, 38.02278137207031)
+TDS:Place("Farm", -23.53929328918457, 501.3924560546875, 27.815824508666992)
+TDS:Place("Farm", -22.73827362060547, 501.39892578125, 23.285533905029297)
+TDS:Place("Farm", -18.3138484954834, 501.3633728027344, 39.79155731201172)
