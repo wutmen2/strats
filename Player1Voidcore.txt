@@ -1,0 +1,227 @@
+local TDS = loadstring(game:HttpGet("https://raw.githubusercontent.com/DuxiiT/auto-strat/refs/heads/main/Library.lua"))()
+
+TDS:Loadout("Hacker", "Gatling Gun", "Pyromancer", "Farm", "Firework Technician")
+TDS:Mode("Voidcore")
+TDS:GameInfo("Outskirts Commune", {})
+
+TDS:Place("Pyromancer", -11.20382308959961, 501.30450439453125, 27.266185760498047)
+TDS:SetTarget(1, "Random")
+TDS:SetTarget(1, "Farthest")
+
+-- [ Wave 1 ] --
+TDS:VoteSkip(1)
+
+-- [ Wave 2 ] --
+TDS:VoteSkip(2)
+TDS:Upgrade(1)
+
+-- [ Wave 3 ] --
+TDS:VoteSkip(3)
+
+-- [ Wave 4 ] --
+TDS:VoteSkip(4)
+
+-- [ Wave 5 ] --
+TDS:VoteSkip(5)
+
+-- [ Wave 6 ] --
+TDS:VoteSkip(6)
+TDS:Place("Pyromancer", -14.955101013183594, 502.9875793457031, -17.932598114013672)
+TDS:SetTarget(2, "Random")
+TDS:SetTarget(2, "Farthest")
+
+-- [ Wave 7 ] --
+TDS:VoteSkip(7)
+TDS:Upgrade(2)
+
+-- [ Wave 8 ] --
+TDS:VoteSkip(8)
+TDS:Place("Farm", -24.967487335205078, 503.3117370605469, -26.258882522583008)
+
+-- [ Wave 9 ] --
+TDS:VoteSkip(9)
+TDS:Place("Farm", -25.52456283569336, 503.1484069824219, -22.369901657104492)
+TDS:Upgrade(3)
+
+-- [ Wave 10 ] --
+TDS:Upgrade(3)
+TDS:Upgrade(4)
+
+-- [ Wave 11 ] --
+TDS:Upgrade(4)
+TDS:Place("Farm", -25.76474380493164, 503.09857177734375, -18.871997833251953)
+
+-- [ Wave 13 ] --
+TDS:VoteSkip(13)
+TDS:Place("Firework Technician", 4.184001922607422, 501.5142822265625, 12.653763771057129)
+
+-- [ Wave 14 ] --
+TDS:Upgrade(5)
+TDS:Upgrade(5)
+TDS:Place("Farm", -26.158416748046875, 502.9737548828125, -15.353257179260254)
+TDS:Upgrade(7)
+
+-- [ Wave 15 ] --
+TDS:Upgrade(7)
+TDS:Place("Farm", -21.832109451293945, 503.409423828125, -27.843490600585938)
+TDS:Upgrade(8)
+
+-- [ Wave 16 ] --
+TDS:Upgrade(7)
+TDS:Upgrade(8)
+
+-- [ Wave 17 ] --
+TDS:Upgrade(5)
+TDS:Upgrade(4)
+
+-- [ Wave 18 ] --
+TDS:Upgrade(3)
+TDS:Upgrade(8)
+TDS:Place("Farm", -18.218610763549805, 503.4508361816406, -28.08741569519043)
+
+-- [ Wave 19 ] --
+TDS:Upgrade(9)
+TDS:Upgrade(9)
+TDS:Upgrade(9)
+TDS:Place("Farm", -14.695791244506836, 503.47265625, -27.83361053466797)
+TDS:Upgrade(10)
+TDS:Upgrade(10)
+TDS:Place("Farm", -10.962793350219727, 503.512939453125, -28.143585205078125)
+TDS:Upgrade(11)
+TDS:Upgrade(11)
+
+-- [ Wave 20 ] --
+TDS:Upgrade(10)
+TDS:Upgrade(11)
+TDS:Place("Farm", -7.327874183654785, 503.6407165527344, -28.06211280822754)
+TDS:Upgrade(12)
+TDS:Upgrade(12)
+
+-- [ Wave 21 ] --
+TDS:Upgrade(12)
+TDS:Place("Gatling Gun", 3.562716484069824, 504.9247741699219, 9.638389587402344)
+
+-- [ Wave 22 ] --
+TDS:Upgrade(13)
+
+-- [ Wave 23 ] --
+TDS:Upgrade(13)
+
+-- [ Wave 25 ] --
+TDS:Upgrade(13)
+TDS:Upgrade(6)
+
+-- [ Wave 26 ] --
+TDS:Upgrade(6)
+TDS:Upgrade(7)
+
+-- [ Wave 27 ] --
+TDS:Sell(2)
+TDS:Upgrade(7)
+TDS:Upgrade(5)
+
+-- [ Wave 28 ] --
+TDS:Upgrade(5)
+TDS:Upgrade(4)
+TDS:Upgrade(3)
+
+-- [ Wave 29 ] --
+TDS:Upgrade(4)
+TDS:Upgrade(3)
+TDS:Upgrade(8)
+
+-- [ Wave 30 ] --
+TDS:Upgrade(8)
+TDS:Upgrade(9)
+TDS:Upgrade(9)
+TDS:Upgrade(10)
+TDS:Upgrade(10)
+TDS:Upgrade(11)
+
+-- [ Wave 31 ] --
+TDS:Place("Hacker", 1.065396785736084, 501.4048156738281, 44.27711868286133)
+TDS:Upgrade(14)
+TDS:Upgrade(14)
+TDS:Upgrade(11)
+TDS:Upgrade(12)
+TDS:Upgrade(12)
+TDS:Place("Hacker", -16.98712730407715, 501.3823547363281, 26.91693878173828)
+TDS:Upgrade(15)
+TDS:Upgrade(15)
+
+-- [ Wave 33 ] --
+TDS:Upgrade(13)
+
+-- [ Wave 34 ] --
+TDS:Upgrade(13)
+
+-- [ Wave 38 ] --
+TDS:Upgrade(13)
+TDS:Upgrade(6)
+
+-- [ Wave 39 ] --
+TDS:Upgrade(6)
+TDS:Upgrade(14)
+TDS:Upgrade(14)
+
+-- [ Wave 40 ] --
+TDS:Upgrade(14, 2)
+
+-- [ Wave 41 ] --
+TDS:Upgrade(15)
+TDS:Upgrade(15)
+
+-- [ Wave 42 ] --
+TDS:Upgrade(15, 2)
+
+-- [ Wave 43 ] --
+TDS:Upgrade(1)
+TDS:Upgrade(1)
+TDS:Upgrade(1)
+TDS:Upgrade(1)
+TDS:Place("Pyromancer", -1.9570813179016113, 501.4237365722656, 43.58595275878906)
+TDS:Upgrade(16)
+TDS:Upgrade(16)
+TDS:Upgrade(16)
+TDS:Upgrade(16)
+TDS:Upgrade(16)
+
+-- [ Wave 44 ] --
+TDS:SetTarget(16, "Random")
+
+-- [ Wave 46 ] --
+TDS:WaitForWave(46)
+TDS:Ability(15, "Hologram Tower", {towerPosition = Vector3.new(1.1544495820999146, 505.0231018066406, 6.200109004974365), towerToClone = 13}, true)
+
+-- [ Wave 47 ] --
+TDS:WaitForWave(47)
+TDS:Ability(15, "Hologram Tower", {towerPosition = Vector3.new(1.1544495820999146, 505.0231018066406, 6.200109004974365), towerToClone = 13}, true)
+-- [ Wave 48 ] --
+TDS:WaitForWave(48)
+TDS:Ability(15, "Hologram Tower", {towerPosition = Vector3.new(1.1544495820999146, 505.0231018066406, 6.200109004974365), towerToClone = 13}, true)
+-- [ Wave 49 ] --
+TDS:WaitForWave(49)
+TDS:Ability(15, "Hologram Tower", {towerPosition = Vector3.new(1.1544495820999146, 505.0231018066406, 6.200109004974365), towerToClone = 13}, true)
+TDS:Sell(7)
+TDS:Sell(5)
+TDS:Sell(4)
+TDS:Sell(3)
+TDS:Sell(8)
+TDS:Sell(9)
+TDS:Sell(10)
+TDS:Sell(11)
+TDS:Sell(12)
+TDS:Place("Farm", -9.599257469177246, 501.38250732421875, 37.38202667236328)
+TDS:Place("Farm", 0.22796154022216797, 501.3565673828125, 40.94077682495117)
+TDS:Place("Farm", -17.356456756591797, 501.3703918457031, 43.31987380981445)
+TDS:Place("Farm", -8.718894958496094, 501.3333435058594, 30.375581741333008)
+TDS:Place("Farm", -13.305421829223633, 501.32513427734375, 23.694120407104492)
+TDS:Place("Farm", -23.308605194091797, 501.4395446777344, 25.176551818847656)
+TDS:Place("Farm", -19.054500579833984, 501.35833740234375, 37.24686050415039)
+TDS:Place("Farm", -18.551795959472656, 501.2972412109375, 15.6928071975708)
+TDS:Place("Farm", -12.206033706665039, 501.25103759765625, 15.879389762878418)
+TDS:Place("Farm", -6.707867622375488, 501.3013916015625, 16.235916137695312)
+
+-- [ Wave 50 ] --
+TDS:WaitForWave(50)
+TDS:Ability(15, "Hologram Tower", {towerPosition = Vector3.new(1.1544495820999146, 505.0231018066406, 6.200109004974365), towerToClone = 13}, true)
