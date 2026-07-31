@@ -8,9 +8,9 @@ TDS:Mode("Trial")
 TDS:VoteSkip(1)
 TDS:Place("Pyromancer", -54.80263137817383, 30.861268997192383, -36.21862030029297)
 TDS:SetTarget(1, "Random")
+TDS:SetTarget(1, "Farthest")
 
 -- [ Wave 2 ] --
-TDS:SetTarget(1, "Farthest")
 TDS:VoteSkip(2)
 TDS:Upgrade(1)
 
