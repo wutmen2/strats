@@ -106,9 +106,8 @@ TDS:Ability(5, "Hologram Tower")
 TDS:Ability(5, "Hologram Tower")
 
 -- [ Wave 39 ] --
-TDS:Ability(5, "Hologram Tower", {towerPosition = Vector3.new(-43.48386764526367, 33.43845748901367, -52.816341400146484), towerToClone = 1})
+TDS:Ability(5, "Hologram Tower", {towerPosition = Vector3.new(-43.48386764526367, 33.43845748901367, -52.816341400146484), towerToClone = 1}, true)
 
 -- [ Wave 40 ] --
 TDS:SetOption(2, "Track", "Red")
-TDS:Ability(5, "Hologram Tower", {towerPosition = Vector3.new(-46.044464111328125, 34.031288146972656, -64.21189880371094), towerToClone = nil})
-TDS:Ability(5, "Hologram Tower", {towerPosition = Vector3.new(-49.23298645019531, 30.361270904541016, -62.041893005371094), towerToClone = 9})
+TDS:Ability(5, "Hologram Tower", {towerPosition = Vector3.new(-49.23298645019531, 30.361270904541016, -62.041893005371094), towerToClone = 9}, true)
