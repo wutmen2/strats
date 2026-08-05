@@ -1,0 +1,217 @@
+local TDS = loadstring(game:HttpGet("https://raw.githubusercontent.com/DuxiiT/auto-strat/refs/heads/main/Library.lua"))()
+
+TDS:Loadout("Pyromancer", "Hacker", "Gatling Gun", "Minigunner", "DJ Booth")
+TDS:Mode("Trial")
+
+TDS:Ready()
+
+-- [ Wave 1 ] --
+TDS:VoteSkip(1)
+TDS:Place("Pyromancer", 9.389984130859375, 0.7500029802322388, -22.954513549804688)
+
+-- [ Wave 2 ] --
+TDS:VoteSkip(2)
+TDS:Upgrade(1)
+
+-- [ Wave 3 ] --
+TDS:SetTarget(1, "Random")
+TDS:SetTarget(1, "Farthest")
+
+-- [ Wave 4 ] --
+TDS:SetTarget(1, "Closest")
+TDS:SetTarget(1, "Farthest")
+TDS:SetTarget(1, "Random")
+TDS:SetTarget(1, "First")
+TDS:SetTarget(1, "Random")
+TDS:SetTarget(1, "Farthest")
+
+-- [ Wave 5 ] --
+TDS:VoteSkip(5)
+
+-- [ Wave 6 ] --
+TDS:VoteSkip(6)
+
+-- [ Wave 7 ] --
+TDS:VoteSkip(7)
+TDS:WaitForWave(7)
+TDS:Sell(1)
+TDS:Place("Gatling Gun", -5.404486656188965, 7.4499921798706055, -13.685503005981445)
+
+-- [ Wave 9 ] --
+TDS:Upgrade(2)
+TDS:Place("Pyromancer", 40.02001190185547, 0.7499994039535522, -2.30953311920166)
+
+-- [ Wave 10 ] --
+TDS:Upgrade(3)
+TDS:SetTarget(3, "Random")
+TDS:SetTarget(3, "Farthest")
+
+-- [ Wave 12 ] --
+TDS:Upgrade(2)
+
+-- [ Wave 13 ] --
+TDS:Upgrade(3)
+TDS:Place("DJ Booth", 6.3125410079956055, 0.750000536441803, -7.716763019561768)
+TDS:Upgrade(4)
+TDS:Upgrade(4)
+TDS:SetOption(4, "Track", "Green")
+TDS:Upgrade(4)
+
+-- [ Wave 15 ] --
+TDS:Upgrade(2)
+
+-- [ Wave 16 ] --
+TDS:Place("Hacker", 42.171688079833984, 0.7499990463256836, -0.11170578002929688)
+TDS:Upgrade(5)
+TDS:Upgrade(5)
+
+-- [ Wave 17 ] --
+TDS:Place("Hacker", 8.687660217285156, 0.7499986886978149, 3.714223861694336)
+
+-- [ Wave 18 ] --
+TDS:Upgrade(6)
+TDS:Upgrade(6)
+
+-- [ Wave 20 ] --
+TDS:Upgrade(2)
+TDS:Place("Minigunner", 12.17972183227539, 0.7500011920928955, -11.936990737915039)
+TDS:Upgrade(7)
+TDS:Place("Minigunner", 11.666326522827148, 0.7500007152557373, -8.840253829956055)
+TDS:Upgrade(8)
+
+-- [ Wave 21 ] --
+TDS:Place("Minigunner", 11.550344467163086, 0.7500001788139343, -5.653324604034424)
+TDS:Upgrade(9)
+TDS:Upgrade(3)
+
+-- [ Wave 23 ] --
+TDS:Upgrade(2)
+TDS:Sell(6)
+
+-- [ Wave 24 ] --
+TDS:Place("Hacker", 18.205036163330078, 0.749998152256012, 6.762538909912109)
+TDS:Upgrade(10)
+TDS:Upgrade(10)
+TDS:Upgrade(4)
+TDS:Upgrade(4)
+
+-- [ Wave 28 ] --
+TDS:Upgrade(2)
+TDS:Upgrade(3)
+TDS:Upgrade(3)
+
+-- [ Wave 29 ] --
+TDS:Upgrade(5)
+TDS:Upgrade(5)
+
+-- [ Wave 30 ] --
+TDS:Upgrade(5, 2)
+
+-- [ Wave 31 ] --
+TDS:Upgrade(10)
+TDS:Upgrade(10)
+
+-- [ Wave 32 ] --
+TDS:Upgrade(10, 2)
+TDS:Upgrade(9)
+TDS:Upgrade(9)
+TDS:Upgrade(8)
+TDS:Upgrade(8)
+TDS:Upgrade(7)
+TDS:Upgrade(7)
+TDS:Place("Minigunner", 14.300206184387207, 0.7500004172325134, -7.018207550048828)
+TDS:Upgrade(11)
+TDS:Upgrade(11)
+TDS:Upgrade(11)
+
+-- [ Wave 33 ] --
+TDS:Place("Minigunner", 14.785795211791992, 0.7500008940696716, -10.148860931396484)
+TDS:Upgrade(12)
+TDS:Upgrade(12)
+TDS:Upgrade(12)
+TDS:Place("Minigunner", 14.116122245788574, 0.7499998807907104, -3.7743401527404785)
+TDS:Upgrade(13)
+TDS:Upgrade(13)
+TDS:Upgrade(13)
+TDS:Place("Minigunner", 11.242332458496094, 0.7499996423721313, -2.4134693145751953)
+TDS:Upgrade(14)
+TDS:Upgrade(14)
+TDS:Upgrade(14)
+TDS:Place("Minigunner", 13.586488723754883, 1.4499952793121338, -0.6178183555603027)
+TDS:Upgrade(15)
+TDS:Upgrade(15)
+TDS:Upgrade(15)
+TDS:Place("Minigunner", 16.64175033569336, 1.2499638795852661, -1.9514515399932861)
+TDS:Upgrade(16)
+TDS:Upgrade(16)
+
+-- [ Wave 34 ] --
+TDS:Upgrade(16)
+TDS:Place("Minigunner", 16.96549415588379, 1.2499840259552002, -5.180452823638916)
+TDS:Upgrade(17)
+TDS:Upgrade(17)
+TDS:Upgrade(17)
+TDS:Place("Minigunner", 16.335535049438477, 1.449985384941101, 1.052217960357666)
+TDS:Upgrade(18)
+TDS:Upgrade(18)
+TDS:Upgrade(18)
+TDS:Place("Minigunner", 19.301267623901367, 0.7499992847442627, -0.23511505126953125)
+TDS:Upgrade(19)
+TDS:Upgrade(19)
+TDS:Upgrade(19)
+
+-- [ Wave 35 ] --
+TDS:Place("Minigunner", 19.698198318481445, 0.7499998807907104, -3.5211334228515625)
+TDS:Upgrade(20)
+TDS:Upgrade(20)
+TDS:Upgrade(20)
+TDS:Place("Pyromancer", 18.964881896972656, 0.7499786019325256, 9.989690780639648)
+TDS:Upgrade(21)
+TDS:Upgrade(21)
+TDS:Upgrade(21)
+TDS:Upgrade(21)
+TDS:Upgrade(21)
+TDS:Upgrade(20)
+TDS:Upgrade(19)
+
+-- [ Wave 36 ] --
+TDS:Upgrade(16)
+TDS:Upgrade(18)
+TDS:Upgrade(17)
+TDS:Upgrade(15)
+
+-- [ Wave 37 ] --
+TDS:Upgrade(13)
+TDS:Upgrade(14)
+TDS:Upgrade(9)
+TDS:Upgrade(11)
+TDS:Sell(12)
+TDS:Sell(7)
+TDS:Sell(8)
+TDS:Place("Minigunner", 18.984878540039062, 0.7499988079071045, 2.964071273803711)
+TDS:Upgrade(22)
+TDS:Upgrade(22)
+TDS:Upgrade(22)
+TDS:Upgrade(22)
+TDS:SetOption(4, "Track", "Red")
+
+-- [ Wave 39 ] --
+TDS:Ability(10, "Hologram Tower", {towerPosition = Vector3.new(-5.395783424377441, 7.449982166290283, -9.29095458984375), towerToClone = 2})
+TDS:Place("Minigunner", 15.30318832397461, 1.449979305267334, 4.062297344207764)
+TDS:Upgrade(23)
+TDS:Upgrade(23)
+TDS:Upgrade(23)
+TDS:Upgrade(23)
+
+-- [ Wave 40 ] --
+TDS:Place("Minigunner", 12.633831024169922, 1.449979305267334, 2.448058605194092)
+TDS:Upgrade(24)
+TDS:Upgrade(24)
+TDS:Upgrade(24)
+TDS:Upgrade(24)
+TDS:Place("Minigunner", 22.2774715423584, 0.7499995231628418, -1.4502449035644531)
+TDS:Upgrade(25)
+TDS:Upgrade(25)
+TDS:Upgrade(25)
+TDS:Upgrade(25)
+TDS:Ability(10, "Hologram Tower", {towerPosition = Vector3.new(-7.520381927490234, 1.7499810457229614, -7.386498928070068), towerToClone = 2})

@@ -1,0 +1,87 @@
+local TDS = loadstring(game:HttpGet("https://raw.githubusercontent.com/DuxiiT/auto-strat/refs/heads/main/Library.lua"))()
+
+TDS:Loadout("Gatling Gun", "Hacker", "Mercenary Base", "Millitary Base", "None")
+TDS:Mode("Trial")
+
+TDS:Place("Military Base", -7.639820575714111, 1.0259190797805786, -7.657729148864746)
+
+-- [ Wave 2 ] --
+TDS:Upgrade(1)
+
+-- [ Wave 3 ] --
+TDS:Place("Military Base", -7.044216156005859, 1.026075005531311, -3.1900625228881836)
+TDS:Upgrade(2)
+
+-- [ Wave 4 ] --
+TDS:Place("Military Base", -7.328582763671875, 1.0260480642318726, 1.312577724456787)
+
+-- [ Wave 5 ] --
+TDS:Upgrade(3)
+
+-- [ Wave 6 ] --
+TDS:Place("Military Base", -7.082071304321289, 1.0000020265579224, -12.403873443603516)
+TDS:Upgrade(4)
+
+-- [ Wave 9 ] --
+TDS:Upgrade(1)
+TDS:Upgrade(1)
+TDS:Upgrade(4)
+
+-- [ Wave 10 ] --
+TDS:Upgrade(3)
+
+-- [ Wave 13 ] --
+TDS:WaitForWave(13)
+TDS:Sell(2)
+TDS:Sell(4)
+TDS:Sell(3)
+TDS:Place("Gatling Gun", -24.34540367126465, 6.053178787231445, -17.708091735839844)
+
+-- [ Wave 14 ] --
+TDS:Upgrade(5)
+TDS:Place("Hacker", 15.264420509338379, 1.0999963283538818, -27.081863403320312)
+TDS:Upgrade(6)
+
+-- [ Wave 15 ] --
+TDS:SetTarget(6, "Last")
+TDS:Upgrade(6)
+
+-- [ Wave 18 ] --
+TDS:Upgrade(5)
+
+-- [ Wave 21 ] --
+TDS:Upgrade(5)
+
+-- [ Wave 25 ] --
+TDS:Upgrade(5)
+
+-- [ Wave 29 ] --
+TDS:Upgrade(5)
+
+-- [ Wave 33 ] --
+TDS:Upgrade(5)
+TDS:Upgrade(6)
+
+-- [ Wave 34 ] --
+TDS:SetTarget(6, "Strongest")
+TDS:Upgrade(6)
+
+-- [ Wave 36 ] --
+TDS:Upgrade(6, 2)
+TDS:Place("Mercenary Base", -26.424156188964844, 1.0000017881393433, -11.280718803405762)
+TDS:Upgrade(7)
+TDS:Upgrade(7)
+TDS:Upgrade(7)
+
+-- [ Wave 37 ] --
+TDS:Upgrade(7)
+TDS:SetOption(7, "Unit 1", "Riot Guard")
+TDS:SetOption(7, "Unit 2", "Riot Guard")
+TDS:SetOption(7, "Unit 3", "Riot Guard")
+TDS:Upgrade(7)
+TDS:Upgrade(7)
+
+-- [ Wave 38 ] --
+
+-- [ Wave 40 ] --
+

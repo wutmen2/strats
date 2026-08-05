@@ -1,0 +1,146 @@
+local TDS = loadstring(game:HttpGet("https://raw.githubusercontent.com/DuxiiT/auto-strat/refs/heads/main/Library.lua"))()
+
+TDS:Loadout("Gatling Gun", "Hacker", "Mercenary Base", "Trapper", "Pyromancer")
+TDS:Mode("Trial")
+
+TDS:Ready()
+
+-- [ Wave 1 ] --
+TDS:VoteSkip(1)
+TDS:Place("Pyromancer", -54.54305648803711, 30.861268997192383, -36.07674026489258)
+TDS:SetTarget(1, "Random")
+
+-- [ Wave 2 ] --
+TDS:VoteSkip(2)
+TDS:Upgrade(1)
+
+-- [ Wave 4 ] --
+TDS:Upgrade(1)
+TDS:Place("Trapper", -57.42647171020508, 30.861268997192383, -36.96431350708008)
+
+-- [ Wave 5 ] --
+TDS:Place("Trapper", -55.33287811279297, 30.861268997192383, -39.13445281982422)
+TDS:Place("Trapper", -58.26844024658203, 30.861268997192383, -39.94929122924805)
+
+-- [ Wave 6 ] --
+TDS:Place("Trapper", -61.22090148925781, 30.361268997192383, -40.96247863769531)
+TDS:Upgrade(4)
+
+-- [ Wave 7 ] --
+TDS:Place("Trapper", -60.608848571777344, 30.861268997192383, -37.97309875488281)
+
+-- [ Wave 8 ] --
+TDS:Upgrade(6)
+TDS:VoteSkip(8)
+
+-- [ Wave 9 ] --
+TDS:Upgrade(4)
+TDS:SetOption(4, "Trap", "Landmine")
+
+-- [ Wave 11 ] --
+TDS:Place("Gatling Gun", -38.43463134765625, 33.43845748901367, -47.178855895996094)
+
+-- [ Wave 12 ] --
+TDS:Upgrade(7)
+
+-- [ Wave 13 ] --
+TDS:Upgrade(7)
+
+-- [ Wave 16 ] --
+TDS:Upgrade(7)
+
+-- [ Wave 17 ] --
+TDS:Place("Hacker", -58.13007736206055, 30.36127471923828, -76.4927978515625)
+TDS:Upgrade(8)
+TDS:Upgrade(8)
+TDS:Place("Hacker", -56.730220794677734, 30.885583877563477, 3.3824429512023926)
+TDS:Upgrade(9)
+TDS:Upgrade(9)
+
+-- [ Wave 18 ] --
+TDS:Upgrade(4)
+
+-- [ Wave 19 ] --
+TDS:Upgrade(4)
+TDS:SetOption(4, "Trap", "Bear Traps")
+
+-- [ Wave 20 ] --
+TDS:Upgrade(2)
+TDS:Upgrade(2)
+TDS:Upgrade(2)
+TDS:Upgrade(2)
+TDS:SetOption(2, "Trap", "Bear Traps")
+
+-- [ Wave 21 ] --
+TDS:Place("Mercenary Base", -40.95683670043945, 30.361268997192383, -44.3742790222168)
+TDS:Upgrade(10)
+TDS:Upgrade(10)
+
+-- [ Wave 22 ] --
+TDS:Upgrade(10)
+TDS:Upgrade(10)
+TDS:SetOption(10, "Unit 1", "Riot Guard")
+TDS:SetOption(10, "Unit 2", "Riot Guard")
+TDS:SetOption(10, "Unit 3", "Riot Guard")
+
+-- [ Wave 23 ] --
+TDS:Upgrade(7)
+
+-- [ Wave 25 ] --
+TDS:Upgrade(7)
+
+-- [ Wave 29 ] --
+TDS:Upgrade(7)
+TDS:Upgrade(10)
+
+-- [ Wave 30 ] --
+TDS:Upgrade(10)
+TDS:Place("Mercenary Base", -105.07864379882812, 30.89027976989746, -37.45244598388672)
+TDS:Upgrade(11)
+TDS:Upgrade(11)
+TDS:Upgrade(11)
+TDS:Upgrade(11)
+TDS:Upgrade(11)
+TDS:SetOption(11, "Unit 1", "Riot Guard")
+
+-- [ Wave 31 ] --
+TDS:SetOption(11, "Unit 2", "Riot Guard")
+TDS:SetOption(11, "Unit 3", "Riot Guard")
+
+-- [ Wave 32 ] --
+TDS:Upgrade(11)
+TDS:Place("Mercenary Base", -107.6390380859375, 30.89027214050293, -32.68618392944336)
+TDS:Upgrade(12)
+TDS:Upgrade(12)
+TDS:Upgrade(12)
+TDS:Upgrade(12)
+TDS:SetOption(12, "Unit 1", "Riot Guard")
+TDS:SetOption(12, "Unit 3", "Riot Guard")
+TDS:SetOption(12, "Unit 2", "Riot Guard")
+TDS:Upgrade(12)
+
+-- [ Wave 33 ] --
+TDS:Upgrade(12)
+TDS:Upgrade(8)
+TDS:Upgrade(8)
+
+-- [ Wave 34 ] --
+TDS:Upgrade(8, 2)
+TDS:Upgrade(9)
+
+-- [ Wave 35 ] --
+TDS:Upgrade(9)
+
+-- [ Wave 36 ] --
+TDS:Upgrade(9, 2)
+TDS:Ability(8, "Hologram Tower")
+
+-- [ Wave 37 ] --
+TDS:Ability(8, "Hologram Tower", {towerPosition = Vector3.new(-42.82286071777344, 33.43845748901367, -51.36561965942383), towerToClone = 7}, true)
+
+-- [ Wave 38 ] --
+
+-- [ Wave 39 ] --
+
+-- [ Wave 40 ] --
+

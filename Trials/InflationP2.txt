@@ -1,0 +1,94 @@
+local TDS = loadstring(game:HttpGet("https://raw.githubusercontent.com/DuxiiT/auto-strat/refs/heads/main/Library.lua"))()
+
+TDS:Loadout("Cowboy", "Hacker", "Gatling Gun", "DJ Booth", "None")
+TDS:Mode("Trial")
+
+TDS:Ready()
+
+-- [ Wave 1 ] --
+TDS:VoteSkip(1)
+TDS:Place("Cowboy", -20.1088924407959, 0.6000032424926758, -23.825782775878906)
+
+-- [ Wave 2 ] --
+TDS:VoteSkip(2)
+
+-- [ Wave 3 ] --
+TDS:Upgrade(1)
+
+-- [ Wave 4 ] --
+TDS:Upgrade(1)
+TDS:Place("Cowboy", -20.594924926757812, 0.6000028252601624, -21.345046997070312)
+
+-- [ Wave 5 ] --
+TDS:Upgrade(2)
+
+-- [ Wave 6 ] --
+TDS:Place("Cowboy", -18.15937614440918, 0.6000029444694519, -22.145883560180664)
+TDS:Upgrade(3)
+
+-- [ Wave 7 ] --
+TDS:Place("Cowboy", -18.574548721313477, 0.6000025272369385, -19.664810180664062)
+TDS:Upgrade(4)
+
+-- [ Wave 10 ] --
+TDS:VoteSkip(10)
+
+-- [ Wave 11 ] --
+TDS:WaitForWave(11)
+TDS:Sell(3)
+TDS:Sell(1)
+TDS:Place("Gatling Gun", -24.152996063232422, 6.053178787231445, -13.543143272399902)
+
+-- [ Wave 12 ] --
+TDS:Upgrade(5)
+
+-- [ Wave 14 ] --
+TDS:Place("Hacker", 16.954845428466797, 1.035056233406067, -22.019309997558594)
+TDS:Upgrade(6)
+TDS:Upgrade(6)
+
+-- [ Wave 16 ] --
+TDS:Upgrade(5)
+
+-- [ Wave 17 ] --
+TDS:Place("DJ Booth", -15.528215408325195, 1.016154408454895, -13.08290958404541)
+TDS:Upgrade(7)
+TDS:Upgrade(7)
+TDS:SetOption(7, "Track", "Green")
+
+-- [ Wave 18 ] --
+TDS:Upgrade(7)
+
+-- [ Wave 19 ] --
+TDS:Sell(4)
+TDS:Sell(2)
+
+-- [ Wave 21 ] --
+TDS:Upgrade(5)
+
+-- [ Wave 24 ] --
+TDS:Upgrade(7)
+TDS:Upgrade(7)
+
+-- [ Wave 27 ] --
+TDS:Upgrade(5)
+
+-- [ Wave 30 ] --
+TDS:Place("Hacker", -3.7163610458374023, 1.0000040531158447, -24.94769287109375)
+TDS:Upgrade(8)
+TDS:Upgrade(8)
+TDS:Upgrade(5)
+
+-- [ Wave 34 ] --
+TDS:Upgrade(5)
+TDS:Upgrade(6)
+
+-- [ Wave 35 ] --
+TDS:Upgrade(6)
+
+-- [ Wave 37 ] --
+TDS:Upgrade(6, 2)
+
+-- [ Wave 40 ] --
+TDS:SetOption(7, "Track", "Red")
+TDS:Ability(6, "Hologram Tower", {towerPosition = Vector3.new(-19.212814331054688, 6.053178787231445, -13.587227821350098), towerToClone = 5})
