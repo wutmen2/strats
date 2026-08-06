@@ -3,7 +3,6 @@ local TDS = loadstring(game:HttpGet("https://raw.githubusercontent.com/DuxiiT/au
 TDS:Loadout("Hacker", "Gatling Gun", "Militant", "Mercenary Base", "Trapper")
 TDS:Mode("Trial")
 
-TDS:Ready()
 TDS:Place("Militant", 10.119881629943848, 3.599987745285034, 16.501535415649414)
 
 -- [ Wave 1 ] --
