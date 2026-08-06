@@ -4,7 +4,6 @@ TDS:Loadout("Hacker", "Gatling Gun", "Militant", "Mercenary Base", "Military Bas
 TDS:Mode("Trial")
 
 TDS:Place("Militant", 135.04550170898438, 2.0749998092651367, -49.79425048828125)
-TDS:Ready()
 
 -- [ Wave 1 ] --
 TDS:Upgrade(1)
