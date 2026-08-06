@@ -3,7 +3,6 @@ local TDS = loadstring(game:HttpGet("https://raw.githubusercontent.com/DuxiiT/au
 TDS:Loadout("Gatling Gun", "Hacker", "Mercenary Base", "Trapper", "Pyromancer")
 TDS:Mode("Trial")
 
-TDS:Ready()
 
 -- [ Wave 1 ] --
 TDS:VoteSkip(1)
