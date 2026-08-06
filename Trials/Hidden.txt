@@ -4,7 +4,6 @@ TDS:Loadout("Gatling Gun", "Hacker", "Mercenary Base", "Trapper", "DJ Booth")
 TDS:Mode("Trial")
 
 TDS:Place("Trapper", -22.46595001220703, 1.0249874591827393, -11.294063568115234)
-TDS:Ready()
 
 -- [ Wave 1 ] --
 TDS:Upgrade(1)
