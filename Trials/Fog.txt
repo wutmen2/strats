@@ -22,8 +22,6 @@ TDS:Place("Gatling Gun", 8.067936897277832, 7.585122585296631, -48.6353187561035
 TDS:Upgrade(2)
 
 -- [ Wave 10 ] --
-TDS:Place("Trapper", -3.2655327320098877, 0.9698150753974915, 54.62126922607422)
-TDS:Upgrade(3)
 
 -- [ Wave 12 ] --
 TDS:Upgrade(2)
@@ -39,8 +37,6 @@ TDS:Upgrade(4)
 TDS:Upgrade(2)
 
 -- [ Wave 16 ] --
-TDS:Upgrade(3)
-TDS:SetOption(3, "Trap", "Landmine")
 TDS:Place("Hacker", -3.242704391479492, 0.9629820585250854, 57.73235321044922)
 TDS:Upgrade(5)
 TDS:Upgrade(5)
@@ -116,9 +112,6 @@ TDS:Upgrade(9)
 TDS:Upgrade(9)
 
 -- [ Wave 35 ] --
-TDS:Upgrade(3)
-TDS:Upgrade(3)
-TDS:SetOption(3, "Trap", "Bear Traps")
 TDS:Place("Trapper", -10.8203763961792, 0.9945736527442932, 39.53034210205078)
 TDS:Upgrade(10)
 TDS:Upgrade(10)
@@ -146,4 +139,3 @@ TDS:SetOption(4, "Track", "Red")
 
 -- [ Wave 40 ] --
 TDS:Ability(5, "Hologram Tower", {towerPosition = Vector3.new(10.150594711303711, 4.919429302215576, -59.36708068847656), towerToClone = 9})
-
