@@ -19,12 +19,12 @@ TDS:VoteSkip(6)
 
 -- [ Wave 7 ] --
 TDS:VoteSkip(7)
-TDS:WaitForWave(7)
+
+-- [ Wave 9 ] --
+TDS:WaitForWave(8)
 TDS:Sell(2)
 TDS:Sell(1)
 TDS:Place("Gatling Gun", -0.6529126167297363, 5.376344203948975, -24.144878387451172)
-
--- [ Wave 9 ] --
 TDS:Upgrade(3)
 
 -- [ Wave 12 ] --
