@@ -36,7 +36,7 @@ TDS:Sell(4)
 
 -- [ Wave 9 ] --
 TDS:Sell(3)
-TDS:Place("Gatling Gun", 1.724005937576294, 6.3624348640441895, -25.972326278686523)
+TDS:Place("Gatling Gun", -4.321114540100098, 0.9999881982803345, -36.78215408325195)
 TDS:Sell(2)
 
 -- [ Wave 10 ] --
@@ -62,7 +62,7 @@ TDS:SetOption(7, "Trap", "Bear Traps")
 TDS:Upgrade(6)
 
 -- [ Wave 19 ] --
-TDS:Place("Mercenary Base", 4.858887672424316, 0.9999791383743286, -23.777286529541016)
+TDS:Place("Mercenary Base", -2.5370631217956543, 0.9999910593032837, -40.826210021972656)
 TDS:Upgrade(8)
 TDS:Upgrade(8)
 
@@ -122,7 +122,7 @@ TDS:Upgrade(11)
 TDS:Upgrade(11, 2)
 
 -- [ Wave 34 ] --
-TDS:Place("Mercenary Base", 2.871302604675293, 0.9999925494194031, -42.96666717529297)
+TDS:Place("Mercenary Base", -0.44461488723754883, 0.9999866485595703, -34.47880172729492)
 TDS:Upgrade(13)
 TDS:Upgrade(13)
 TDS:Upgrade(13)
@@ -134,7 +134,7 @@ TDS:Upgrade(13)
 
 -- [ Wave 35 ] --
 TDS:Upgrade(13)
-TDS:Place("Mercenary Base", -2.483384847640991, 0.9999914765357971, -41.4541015625)
+TDS:Place("Mercenary Base", 3.3399558067321777, 0.999991774559021, -41.80641174316406)
 TDS:Upgrade(14)
 TDS:Upgrade(14)
 TDS:Upgrade(14)
