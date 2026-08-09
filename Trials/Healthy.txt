@@ -31,11 +31,11 @@ TDS:VoteSkip(6)
 
 -- [ Wave 7 ] --
 TDS:VoteSkip(7)
-TDS:WaitForWave(7)
+
+-- [ Wave 8 ] --
+TDS:WaitForWave(8)
 TDS:Sell(1)
 TDS:Place("Gatling Gun", -5.404486656188965, 7.4499921798706055, -13.685503005981445)
-
--- [ Wave 9 ] --
 TDS:Upgrade(2)
 TDS:Place("Pyromancer", 40.02001190185547, 0.7499994039535522, -2.30953311920166)
 
